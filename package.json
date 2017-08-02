@@ -1,0 +1,31 @@
+{
+  "name": "rclone-webfrontend",
+  "version": "0.0.1",
+  "description": "web based frontend for rclone to manage syncs on headless machines via webbrowser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominik-code/Rclone-webfrontend.git"
+  },
+  "keywords": [
+    "rclone",
+    "web",
+    "frontend",
+    "headless",
+    "server",
+    "backup",
+    "sync"
+  ],
+  "author": "Dominik Schmitt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dominik-code/Rclone-webfrontend/issues"
+  },
+  "homepage": "https://github.com/dominik-code/Rclone-webfrontend#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
