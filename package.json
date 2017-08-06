@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/dominik-code/Rclone-webfrontend#readme",
   "dependencies": {
+    "cron": "^1.2.1",
     "express": "^4.15.3",
     "node-cron": "^1.2.0",
     "winston": "^2.3.1"
