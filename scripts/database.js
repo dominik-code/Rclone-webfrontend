@@ -1,6 +1,9 @@
 
 var sqlite3 = require('sqlite3').verbose();
 var db = new sqlite3.Database('test.db');
+var logger = require('winston');
+
+logger.info('Database initialized');
 
 
 db.serialize(function() {
